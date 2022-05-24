@@ -1,0 +1,27 @@
+{
+    "user_attributes": {
+        "alice": {
+            "title": "admin"
+        },
+        "bob": {
+            "title": "clinician",
+            "patients": []
+        },
+        "charlie": {
+            "title": "clinician",
+            "patients": [
+                "patient123"
+            ]
+        },
+        "dora": {
+            "title": "clinician",
+            "patients": [
+                "patient123",
+                "patient456"
+            ]
+        },
+        "eve": {
+            "title": "visitor"
+        }
+    }
+}

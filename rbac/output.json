@@ -1,0 +1,13 @@
+{
+    "allow": true,
+    "clinician_has_patients": [
+        "patient123",
+        "patient456"
+    ],
+    "user_is_granted": [
+        {
+            "action": "read",
+            "type": "patient"
+        }
+    ]
+}
