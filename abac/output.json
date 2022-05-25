@@ -1,9 +1,8 @@
 {
     "action_is_read": true,
-    "allow": true,
-    "user_has_patients": [
+    "allow": false,
+    "patients": [
         "patient123",
         "patient456"
-    ],
-    "user_is_clinician": true
+    ]
 }

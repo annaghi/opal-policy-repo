@@ -1,27 +1,35 @@
 {
-    "user_attributes": {
+    "users": {
         "alice": {
-            "title": "admin"
+            "role": "admin"
         },
         "bob": {
-            "title": "clinician",
+            "role": "clinician"
+        },
+        "charlie": {
+            "role": "clinician"
+        },
+        "dora": {
+            "role": "clinician"
+        },
+        "eve": {
+            "role": "visitor"
+        }
+    },
+    "clinicians": {
+        "bob": {
             "patients": []
         },
         "charlie": {
-            "title": "clinician",
             "patients": [
                 "patient123"
             ]
         },
-        "dora": {
-            "title": "clinician",
+		"dora": {
             "patients": [
                 "patient123",
                 "patient456"
             ]
-        },
-        "eve": {
-            "title": "visitor"
         }
     }
 }
